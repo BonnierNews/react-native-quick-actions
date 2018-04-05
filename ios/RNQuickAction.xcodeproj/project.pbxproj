@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD90517D1BD2EE4A00EFDEBC /* RNQuickActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD90517B1BD2EE4A00EFDEBC /* RNQuickActionManager.m */; settings = {ASSET_TAGS = (); }; };
+		537C17BD207695C500C99037 /* RNQuickActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C17BB207695C500C99037 /* RNQuickActionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		537C17BB207695C500C99037 /* RNQuickActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQuickActionManager.m; sourceTree = "<group>"; };
+		537C17BC207695C500C99037 /* RNQuickActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNQuickActionManager.h; sourceTree = "<group>"; };
 		91090D8B1BB6C934009AE358 /* libRNQuickAction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNQuickAction.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD90517B1BD2EE4A00EFDEBC /* RNQuickActionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQuickActionManager.m; sourceTree = "<group>"; };
-		AD90517C1BD2EE4A00EFDEBC /* RNQuickActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNQuickActionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,8 @@
 		91090D821BB6C934009AE358 = {
 			isa = PBXGroup;
 			children = (
-				91090D8D1BB6C934009AE358 /* RNQuickAction */,
+				537C17BC207695C500C99037 /* RNQuickActionManager.h */,
+				537C17BB207695C500C99037 /* RNQuickActionManager.m */,
 				91090D8C1BB6C934009AE358 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +54,6 @@
 				91090D8B1BB6C934009AE358 /* libRNQuickAction.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		91090D8D1BB6C934009AE358 /* RNQuickAction */ = {
-			isa = PBXGroup;
-			children = (
-				AD90517B1BD2EE4A00EFDEBC /* RNQuickActionManager.m */,
-				AD90517C1BD2EE4A00EFDEBC /* RNQuickActionManager.h */,
-			);
-			path = RNQuickAction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +113,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD90517D1BD2EE4A00EFDEBC /* RNQuickActionManager.m in Sources */,
+				537C17BD207695C500C99037 /* RNQuickActionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
