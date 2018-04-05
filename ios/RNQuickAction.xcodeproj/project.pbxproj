@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		537C17BD207695C500C99037 /* RNQuickActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 537C17BB207695C500C99037 /* RNQuickActionManager.m */; };
 /* End PBXBuildFile section */
@@ -82,7 +81,7 @@
 		91090D831BB6C934009AE358 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 710;
 				ORGANIZATIONNAME = "react-native";
 				TargetAttributes = {
 					91090D8A1BB6C934009AE358 = {

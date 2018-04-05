@@ -7,7 +7,9 @@ module.exports = {
    * action object, or `null`. Subsequent invocations will return null.
    */
   popInitialAction: function() {
-    return null;
+    return new Promise((resolve, reject) => {
+      reject()
+    });
   },
 
   /**
@@ -23,5 +25,7 @@ module.exports = {
   /**
    * Check if quick actions are supported
    */
-   isSupported: function(callback) {}
+   isSupported: function(callback) {
+     callback(false)
+   }
 };
