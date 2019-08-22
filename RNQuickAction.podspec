@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jordan Byron" => "jordan.byron@gmail.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/jordanbyron/react-native-quick-actions.git", :tag => "#{s.version}" }
-  s.source_files = 'RNQuickAction/RNQuickAction/*.{h,m}'
+  s.source_files = 'ios/**/*.{h,m}'
   s.preserve_paths = "**/*.js"
   s.dependency 'React'
 
